@@ -14,6 +14,8 @@ TwosampleMR and MultivariableMR perform all steps with simple command(s) without
  E:  _sensitivity tests_ (heterogeneity, pleiotropy, singlesnp, leaveoneout, MR-PRESSO)
  
  F:  _visualization_ (scatter plots and funnel plots)
+ 
+ G:  comppile all _results_ into a file.
 
 ## Step-1: installtion..   
   **Install required R library:** 
