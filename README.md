@@ -26,7 +26,7 @@ TwosampleMR and MultivariableMR perform all steps with simple command(s) without
   Rscript --vanilla stepTwo.r _outcome file_
 
 
-## Explanation:
+### Explanation:
 
 **Step-3:**
   (i) read exposure data, (ii) perform SNP clumping and (iii) prepare data for step-4
