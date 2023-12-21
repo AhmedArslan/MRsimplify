@@ -23,8 +23,6 @@ Step-3:
   (i) read exposure data, (ii) perform SNP clumping and (iii) prepare data for step-4
 
 Step-4:
-  (i) read outcome data, (ii) get proxy SNP(s); (iii) hormonise SNPs, (iv) perform twosampleMR, (v) sensitivity tests (heterogeneity, pleiotropy, singlesnp, leaveoneout, presso), (vi) 
-
-write output files containing all the results. (vii) Generate visulations in terms og scatter plots and funnel plots. 
+  (i) read outcome data, (ii) get proxy SNP(s); (iii) hormonise SNPs, (iv) perform twosampleMR, (v) sensitivity tests (heterogeneity, pleiotropy, singlesnp, leaveoneout, presso), (vi) write output files containing all the results. (vii) Generate visulations in terms og scatter plots and funnel plots. 
 
   contact: <ahmed.arslan@ulb.be> or leave comment in issues page. 
