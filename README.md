@@ -10,8 +10,8 @@ TwosampleMR and MultivariableMR perform all steps with simple command(s) without
     [TwoSampleMR](https://github.com/mrcieu/TwoSampleMR), [stringr](https://stringr.tidyverse.org), [tidyverse](https://www.tidyverse.org/packages/), [LDlinkR](https://cran.r-project.org/web/packages/LDlinkR/vignettes/LDlinkR.html), [ggplot2](https://ggplot2.tidyverse.org), [ieugwasr](https://mrcieu.github.io/ieugwasr/index.html), [dplyr](https://dplyr.tidyverse.org), [gwasvcf](https://github.com/MRCIEU/gwasvcf).
   
   **Download and install** 
-    _R codes_ (stepOne.r and  stepTwo.r) and before running add the path to local LD reference panel on line-12 and line-28, respectively. 
-    _The LD reference panel_ contains information on 5 super-populations (EUR = European; EAS = East Asian; AMR = Admixed American; SAS = South Asian; AFR = African). The LD reference panel can be downloaded from: [mrcieu](http://fileserve.mrcieu.ac.uk/ld/1kg.v3.tgz) (correctly supporting only GRCh37/hg19 reference built)
+   _R codes_ (stepOne.r and  stepTwo.r) and before running add the path to local LD reference panel on line-12 and line-28, respectively. 
+   _The LD reference panel_ contains information on 5 super-populations (EUR = European; EAS = East Asian; AMR = Admixed American; SAS = South Asian; AFR = African). The LD reference panel can be downloaded from: [mrcieu](http://fileserve.mrcieu.ac.uk/ld/1kg.v3.tgz) (correctly supporting only GRCh37/hg19 reference built)
 
 ## Step-2: 
   
