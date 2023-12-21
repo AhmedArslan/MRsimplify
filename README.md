@@ -7,13 +7,13 @@ TwosampleMR and MultivariableMR perform all steps with simple command(s) without
  
  _outcome data_: read; proxy SNP 
  
- _Harmonize_ 
+ _harmonise_ 
  
  _MR_
  
- _Sensitivity tests_ (heterogeneity, pleiotropy, singlesnp, leaveoneout, presso)
+ _sensitivity tests_ (heterogeneity, pleiotropy, singlesnp, leaveoneout, MR-PRESSO)
  
- _Visualization_ (scatter plots and funnel plots)
+ _visualization_ (scatter plots and funnel plots)
 
 ## Step-1: installtion..   
   **Install required R library:** 
@@ -45,6 +45,6 @@ TwosampleMR and MultivariableMR perform all steps with simple command(s) without
   (i) read exposure data, (ii) perform SNP clumping and (iii) prepare data for step-4
 
 **Step-4:**
-  (i) read outcome data, (ii) get proxy SNP(s); (iii) hormonise SNPs, (iv) perform twosampleMR, (v) sensitivity tests (heterogeneity, pleiotropy, singlesnp, leaveoneout, presso), (vi) write output files containing all the results. (vii) Generate visulations in terms of scatter plots and funnel plots. 
+  (i) read outcome data, (ii) get proxy SNP(s); (iii) hormonise SNPs, (iv) perform twosampleMR, (v) sensitivity tests (heterogeneity, pleiotropy, singlesnp, leaveoneout, MR-PRESSO), (vi) write output files containing all the results. (vii) Generate visulations in terms of scatter plots and funnel plots. 
 
 **contact:** <ahmed.arslan@ulb.be> or leave comments in issues page. 
