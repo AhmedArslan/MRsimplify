@@ -2,10 +2,11 @@
 TwosampleMR and MultivariableMR perform all steps with simple command(s) without prior knowledge or having to go through lengthy boring protocols
 
 ## Step-1:
-  ** Download full gwas summary stat: **
+  **Download full gwas summary stat:**
   From either GWASCatalog or individual publications with necessary information: SNP, CHR, POS, A1 (effect_allele), A2 (other_allele), BETA, SE, Phenotype, Pval, EAF (effect_allele Freq), Samplesize. 
   
-  ** Install required R library: ** 
+  **Install required R library:** 
+  
   TwoSampleMR, stringr, tidyverse, LDlinkR, ggplot2, ieugwasr, dplyr, gwasvcf
 
 ## Step-2: 
