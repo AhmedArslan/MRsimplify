@@ -10,7 +10,7 @@ TwosampleMR and MultivariableMR perform all steps with simple command(s) without
 
 ## Step-2: 
   
-  Filter exposure data of above columns with pval (<5e-08) whereas outcome data should be full length summary stats files _without_ pval threshold.
+  Filter exposure data with mentioned above columns by pval (<5e-08) whereas outcome data should be full length summary stats files _without_ pval threshold.
 
 ## Step-3: read exposure data:
   
