@@ -10,15 +10,15 @@ TwosampleMR and MultivariableMR perform all steps with simple command(s) without
 
 ## Step-2: 
   
-  Filter Exposure data of above columns with pval (<5e-08) whereas Outcome data should be full length summary stats files without pval threshold
+  Filter exposure data of above columns with pval (<5e-08) whereas outcome data should be full length summary stats files _without_ pval threshold.
 
 ## Step-3: read exposure data:
   
-  Rscript --vanilla stepOne.r < exposure file >
+  Rscript --vanilla stepOne.r _exposure file_
 
 ## Step-4: read outcome data and perform MR:
  
-  Rscript --vanilla stepTwo.r < outcome file >
+  Rscript --vanilla stepTwo.r _outcome file_
 
 
 ## Explanation:
