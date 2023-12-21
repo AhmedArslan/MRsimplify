@@ -42,4 +42,6 @@ TwosampleMR and MultivariableMR perform all steps with simple command(s) without
  
   Rscript --vanilla stepTwo.r _outcome file_
 
+
+
 **contact:** <ahmed.arslan@ulb.be> or leave comments in issues page. 
