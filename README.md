@@ -15,7 +15,7 @@ TwosampleMR and MultivariableMR perform all steps with simple command(s) without
  
  F:  _visualization_ (scatter plots and funnel plots)
  
- G:  comppile all _results_ into a file.
+ G:  compile all _results_ into a file.
 
 ## Step-1: installtion..   
   **Install required R library:** 
