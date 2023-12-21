@@ -6,7 +6,6 @@ TwosampleMR and MultivariableMR perform all steps with simple command(s) without
   From either GWASCatalog or individual publications with necessary information: SNP, CHR, POS, A1 (effect_allele), A2 (other_allele), BETA, SE, Phenotype, Pval, EAF (effect_allele Freq), Samplesize. 
   
   **Install required R library:** 
-  
   TwoSampleMR, stringr, tidyverse, LDlinkR, ggplot2, ieugwasr, dplyr, gwasvcf
 
 ## Step-2: 
