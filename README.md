@@ -3,7 +3,7 @@
 TwosampleMR and MultivariableMR perform all steps with simple command(s) without prior knowledge or having to go through lengthy boring protocols
 ### Internal steps in MRsimplify
  
- A:  _exposure data_: (i) read exposure data, (ii) perform SNP clumping and (iii) prepare data.
+ A:  _exposure data_: (i) read exposure data, (ii) perform SNP clumping and (iii) store data.
  
  B:  _outcome data_: (i) read outcome data, (ii) get proxy SNP(s)
  
