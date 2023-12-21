@@ -1,2 +1,2 @@
 # MRsimplify
-TwosampleMR and MultivariableMR perform with simple commands without prior knowledge or having to go through lengthy boring protocols
+TwosampleMR and MultivariableMR perform all steps with simple command(s) without prior knowledge or having to go through lengthy boring protocols
