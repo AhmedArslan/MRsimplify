@@ -32,13 +32,13 @@ TwosampleMR and MultivariableMR perform all steps with simple command(s) without
 
 ## Step-3: read exposure data.. 
 
-### (internal step: A)
+(_internal step: A_)
   
   Rscript --vanilla stepOne.r _exposure file_
 
 ## Step-4: read outcome data and perform twosampleMR.. 
 
-### (internal steps: B - F)
+(_internal steps: B - F_)
  
   Rscript --vanilla stepTwo.r _outcome file_
 
