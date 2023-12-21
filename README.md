@@ -3,17 +3,17 @@
 TwosampleMR and MultivariableMR perform all steps with simple command(s) without prior knowledge or having to go through lengthy boring protocols
 ### Internal steps in MRsimplify
  
- _exposure data_: read; format data; SNP clumping (stepOne.r)
+ A: _exposure data_: read; format data; SNP clumping 
  
- _outcome data_: read; proxy SNP (stepTwo.r)
+ B: _outcome data_: read; proxy SNP 
  
- _harmonise_ (stepTwo.r)
+ C: _harmonise_ 
  
- _MR_ (stepTwo.r)
+ D: _MR_
  
- _sensitivity tests_ (heterogeneity, pleiotropy, singlesnp, leaveoneout, MR-PRESSO) (stepTwo.r)
+ E: _sensitivity tests_ (heterogeneity, pleiotropy, singlesnp, leaveoneout, MR-PRESSO)
  
- _visualization_ (scatter plots and funnel plots) (stepTwo.r)
+ F: _visualization_ (scatter plots and funnel plots)
 
 ## Step-1: installtion..   
   **Install required R library:** 
