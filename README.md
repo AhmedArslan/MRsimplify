@@ -3,9 +3,9 @@
 TwosampleMR and MultivariableMR perform all steps with simple command(s) without prior knowledge or having to go through lengthy boring protocols
 ### Internal steps in MRsimplify
  
- A:  _exposure data_: read; format data; SNP clumping 
+ A:  _exposure data_: (i) read exposure data, (ii) perform SNP clumping and (iii) prepare data.
  
- B:  _outcome data_: read; proxy SNP 
+ B:  _outcome data_: (i) read outcome data, (ii) get proxy SNP(s)
  
  C:  _harmonise_ 
  
@@ -41,14 +41,5 @@ TwosampleMR and MultivariableMR perform all steps with simple command(s) without
 (_internal steps: B - F_)
  
   Rscript --vanilla stepTwo.r _outcome file_
-
-
-### Explanation:
-
-**Step-3:**
-  (i) read exposure data, (ii) perform SNP clumping and (iii) prepare data for step-4
-
-**Step-4:**
-  (i) read outcome data, (ii) get proxy SNP(s); (iii) hormonise SNPs, (iv) perform twosampleMR, (v) sensitivity tests (heterogeneity, pleiotropy, singlesnp, leaveoneout, MR-PRESSO), (vi) write output files containing all the results. (vii) Generate visulations in terms of scatter plots and funnel plots. 
 
 **contact:** <ahmed.arslan@ulb.be> or leave comments in issues page. 
