@@ -40,7 +40,7 @@ TwosampleMR and MultivariableMR perform all steps with simple command(s) without
 
 ## Step-4: read outcome data and perform twosampleMR.. 
 
-(_internal steps: B - F_)
+(_internal steps: B - G_)
  
   Rscript --vanilla stepTwo.r _outcome file_
 
