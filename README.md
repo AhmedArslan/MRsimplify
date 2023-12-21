@@ -1,6 +1,13 @@
 # MRsimplify
 
 TwosampleMR and MultivariableMR perform all steps with simple command(s) without prior knowledge or having to go through lengthy boring protocols
+### Internal steps in MRsimplify
+ exposure data: read; format data; SNP clumping
+ outcome data read; proxy SNP 
+ Harmonize 
+ MR
+ Sensitivity tests
+ Visualization  
 
 ## Step-1: installtion..   
   **Install required R library:** 
