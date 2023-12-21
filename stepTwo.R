@@ -25,7 +25,7 @@ start_time <- Sys.time()
   exposures_snps_not <- anti_join(exposures_clump_local_preH, outCome_args,  by = "SNP")
   print("clumping outcome SNPs... ")
   #identify local proxy snps
-  LDproxy <- get_ld_proxies(rsid = unique(exposures_snps_not$SNP), bfile =  "/path/to/SNPs/EUR", tag_kb=10000, tag_r2=0.8, tag_nsnp=50000, threads = 4)
+  LDproxy <- get_ld_proxies(rsid = unique(exposures_snps_not$SNP), bfile =  "/path/to/LD/EUR", tag_kb=10000, tag_r2=0.8, tag_nsnp=50000, threads = 4)
   #SNP proxy file cleaning before running next steps:
   LDproxy_reshuffle <- LDproxy[,c(3,7,1,2,8,4,10)]
   LDproxy_reshuffle$distance <- LDproxy$BP_A - LDproxy$BP_B
