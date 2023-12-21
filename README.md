@@ -2,7 +2,7 @@
 
 TwosampleMR and MultivariableMR perform all steps with simple command(s) without prior knowledge or having to go through lengthy boring protocols
 
-## Step-1: Installtion..   
+## Step-1: installtion..   
   **Install required R library:** 
    [TwoSampleMR](https://github.com/mrcieu/TwoSampleMR), [stringr](https://stringr.tidyverse.org), [tidyverse](https://www.tidyverse.org/packages/), [LDlinkR](https://cran.r-project.org/web/packages/LDlinkR/vignettes/LDlinkR.html), [ggplot2](https://ggplot2.tidyverse.org), [ieugwasr](https://mrcieu.github.io/ieugwasr/index.html), [dplyr](https://dplyr.tidyverse.org), [gwasvcf](https://github.com/MRCIEU/gwasvcf).
   
@@ -13,7 +13,7 @@ TwosampleMR and MultivariableMR perform all steps with simple command(s) without
  **Download full gwas summary stat:**
    From either [GWASCatalog](https://www.ebi.ac.uk/gwas/) or individual publications with necessary information: SNP, CHR, POS, A1 (effect_allele), A2 (other_allele), BETA, SE, Phenotype, Pval, EAF (effect_allele Freq), samplesize. (NOTE: all data must have GRCh37 corrdinates for smooth processing and reliable results)
 
-## Step-2: Formate data..
+## Step-2: formate data..
   
   Filter exposure data with mentioned above columns by pval (<5e-08) whereas outcome data should be full length summary stats files _without_ pval threshold.
 
