@@ -38,7 +38,7 @@ TwosampleMR and MultivariableMR, perform all steps with simple command(s) withou
   
   Rscript --vanilla stepOne.r _exposure file_
 
-## Step-4: read outcome data and perform twosampleMR.. 
+## Step-4: read outcome data and perform TwosampleMR.. 
 
 (_internal steps: B - G_)
  
