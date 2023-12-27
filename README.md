@@ -1,6 +1,6 @@
 # MRsimplify
 
-TwosampleMR and MultivariableMR perform all steps with simple command(s) without prior knowledge or having to go through lengthy boring protocols
+TwosampleMR and MultivariableMR, perform all steps with simple command(s) without prior knowledge or having to go through lengthy boring protocols
 ### Internal steps in MRsimplify
  
  A:  _exposure data_: (i) read exposure data, (ii) perform SNP clumping and (iii) store data.
@@ -30,7 +30,7 @@ TwosampleMR and MultivariableMR perform all steps with simple command(s) without
 
 ## Step-2: formate data..
   
-  Filter exposure data with mentioned above columns by pval (<5e-08) whereas outcome data should be full length summary stats files _without_ pval threshold.
+  Filter exposure data with above mentioned columns by pval (<5e-08) whereas outcome data should be full length summary stats files _without_ pval threshold.
 
 ## Step-3: read exposure data.. 
 
