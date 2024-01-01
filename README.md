@@ -22,11 +22,13 @@ TwosampleMR and MultivariableMR, perform all steps with simple command(s) withou
    [TwoSampleMR](https://github.com/mrcieu/TwoSampleMR), [stringr](https://stringr.tidyverse.org), [tidyverse](https://www.tidyverse.org/packages/), [LDlinkR](https://cran.r-project.org/web/packages/LDlinkR/vignettes/LDlinkR.html), [ggplot2](https://ggplot2.tidyverse.org), [ieugwasr](https://mrcieu.github.io/ieugwasr/index.html), [dplyr](https://dplyr.tidyverse.org), [gwasvcf](https://github.com/MRCIEU/gwasvcf).
   
   **Download and install:** 
-   _R codes_ (stepOne.r and  stepTwo.r) and before running add the path to local LD reference panel on line-12 and line-28, respectively. 
-   The _LD reference panel_ contains information of 5 super-populations (EUR = European; EAS = East Asian; AMR = Admixed American; SAS = South Asian; AFR = African). The LD reference panel can be downloaded from [here](http://fileserve.mrcieu.ac.uk/ld/1kg.v3.tgz) (currently supporting only GRCh37/hg19 genome built).
+   * _R codes_ (stepOne.r and  stepTwo.r) and before running add the path to local LD reference panel on line-12 and line-28, respectively. 
+   * The _LD reference panel_ contains information of 5 super-populations (EUR = European; EAS = East Asian; AMR = Admixed American; SAS = South Asian; AFR = African).
+   * The LD reference panel can be downloaded from [here](http://fileserve.mrcieu.ac.uk/ld/1kg.v3.tgz) (currently supporting only GRCh37/hg19 genome built).
 
  **Download full gwas summary stat:**
-   From either [GWASCatalog](https://www.ebi.ac.uk/gwas/) or individual publications with necessary information: SNP, CHR, POS, A1 (effect_allele), A2 (other_allele), BETA, SE, Phenotype, Pval, EAF (effect_allele Freq), samplesize. (NOTE: all data must have GRCh37 corrdinates for smooth processing and reliable results. In case genomic coordinates change required, [MungeSumstats](https://neurogenomics.github.io/MungeSumstats/articles/MungeSumstats.html) can be used.)
+   * From either [GWASCatalog](https://www.ebi.ac.uk/gwas/) or individual publications with necessary information: SNP, CHR, POS, A1 (effect_allele), A2 (other_allele), BETA, SE, Phenotype, Pval, EAF (effect_allele Freq), samplesize. (NOTE: all data must have GRCh37 corrdinates for smooth processing and reliable results.
+   * In case genomic coordinates change required, [MungeSumstats](https://neurogenomics.github.io/MungeSumstats/articles/MungeSumstats.html) can be used.)
 
 ## Step-2: formate data..
   
