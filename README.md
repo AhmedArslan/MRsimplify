@@ -27,7 +27,7 @@ TwosampleMR and MultivariableMR, perform all steps with simple command(s) withou
    * The _LD reference panel_ contains information of 5 super-populations (EUR = European; EAS = East Asian; AMR = Admixed American; SAS = South Asian; AFR = African).
 
  **Download full gwas summary stat:**
-   * From either [GWASCatalog](https://www.ebi.ac.uk/gwas/) or individual publications with necessary information: SNP, CHR, POS, A1 (effect_allele), A2 (other_allele), BETA, SE, Phenotype, Pval, EAF (effect_allele Freq), samplesize. (NOTE: all data must have GRCh37 coordinates for smooth processing and reliable results.
+   * From either [GWASCatalog](https://www.ebi.ac.uk/gwas/) or individual publications with necessary information: SNP, CHR, POS, A1 (effect_allele), A2 (other_allele), BETA, SE, Phenotype, Pval, EAF (effect_allele Freq), samplesize. (NOTE: all data must have GRCh37 coordinates for smooth processing and reliable results.)
    * In case genomic coordinates change required, [MungeSumstats](https://neurogenomics.github.io/MungeSumstats/articles/MungeSumstats.html) can be used.
 
 ## Step-2: formate data..
