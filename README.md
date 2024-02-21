@@ -51,6 +51,8 @@ _________________________________________________________________________
 
  **additional readings:**
    
+   https://mrcieu.github.io/TwoSampleMR/index.html
+   
  **citation:** If you find repo useful please cite the link while manuscript is in preparation. 
 
  **contact:** <ahmed.arslan@ulb.be> or leave comments in issues page. 
