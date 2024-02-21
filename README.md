@@ -50,7 +50,6 @@ TwosampleMR and MultivariableMR, perform all steps with simple command(s) withou
 _________________________________________________________________________
 
  **additional readings:**
-   
    https://mrcieu.github.io/TwoSampleMR/index.html
    
  **citation:** If you find repo useful please cite the link while manuscript is in preparation. 
