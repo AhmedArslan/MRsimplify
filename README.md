@@ -49,6 +49,8 @@ TwosampleMR and MultivariableMR, perform all steps with simple command(s) withou
 
 _________________________________________________________________________
 
+ **additional readings:**
+   
  **citation:** If you find repo useful please cite the link while manuscript is in preparation. 
 
  **contact:** <ahmed.arslan@ulb.be> or leave comments in issues page. 
