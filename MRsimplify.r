@@ -93,7 +93,6 @@ start_time <- Sys.time()
   #step-3: Harmanise data
   print("harmonising outcome and exposure SNPs... ")
   harmonise_munge <- harmonise_data(exposure_dat = exposures_clump_local_preH, outcome_dat = outcome_dat_munge, action = 1)
-  print(dim(harmonise_munge))
   #step-4: MR
   print("performaing two sample MR... ") 
   mr_results <- mr(harmonise_munge)
