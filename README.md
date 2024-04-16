@@ -37,18 +37,14 @@ TwosampleMR and MultivariableMR, perform all steps with simple command(s) withou
   * Filter exposure data with above mentioned columns by pval (<5e-08) whereas outcome data should be full length summary stats files _without_ pval threshold.
   * Note: To save time, (it is recommended to) include data of different exposure(s) into one file, however in all TwosampleMR subsequent steps each exposure-outcome MR is computed separately.
 
- ~~## Step-3: read exposure data..~~
-
- ~~(_internal step: A_)~~
+ ## Step-3: perform MR..
   
-   ~~Rscript --vanilla stepOne.r _exposure file_~~
+   ~~Rscript --vanilla MRsimplify.r _exposure file_ _outcome file_
 
- ~~## Step-4: read outcome data and perform TwosampleMR..~~ 
+ ## Step-4: MR analysis result..
 
- ~~(_internal steps: B - G_)~~
+    a folder will be geneated with _outcome_ name containing all the results including _sensitivity tests_ plus all the _visualization_
  
-   ~~Rscript --vanilla stepTwo.r _outcome file_~~
-
 _________________________________________________________________________
 
 
