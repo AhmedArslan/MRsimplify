@@ -17,7 +17,7 @@ start_time <- Sys.time()
   exposures$se <- SE
   colnames(exposures) <- c("SNP", "chr", "position", "effect_allele", "other_allele", "beta", "Phenotype", "pval","eaf","samplesize", "se")
   exposures_frmt <- format_data(exposures, type = "exposure")
-  exposures_clump_local <- ld_clump(dplyr::tibble(rsid=exposures_frmt$SNP, pval=exposures_frmt$pval.exposure, id=exposures_frmt$exposure), plink_bin = genetics.binaRies::get_plink_binary(), bfile = "/path/1kg.v3/EUR", clump_kb = 300, clump_r2 = 0.1,clump_p = 0.99)
+  exposures_clump_local <- ld_clump(dplyr::tibble(rsid=exposures_frmt$SNP, pval=exposures_frmt$pval.exposure, id=exposures_frmt$exposure), plink_bin = genetics.binaRies::get_plink_binary(), bfile = "/path/1kg.v3/EUR", clump_kb = 0.3, clump_r2 = 0.1,clump_p = 0.99)
   exposures_clump_local_preH <- merge(exposures_frmt, exposures_clump_local,by.x="SNP", by.y= "rsid")
   exposures_clump_local_preH$pval <- NULL
   exposures_clump_local_preH$id <- NULL
