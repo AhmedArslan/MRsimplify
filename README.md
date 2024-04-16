@@ -1,5 +1,3 @@
-# MAJOR UPDATE IS COMING...
-
 # MRsimplify
 
 TwosampleMR and MultivariableMR, perform all steps with simple command(s) without prior knowledge or having to go through lengthy boring protocols
@@ -39,11 +37,11 @@ TwosampleMR and MultivariableMR, perform all steps with simple command(s) withou
 
  ## Step-3: perform MR..
   
-   ~~Rscript --vanilla MRsimplify.r _exposure file_ _outcome file_
+   Rscript --vanilla MRsimplify.r _exposure file_ _outcome file_
 
  ## Step-4: MR analysis result..
 
-    a folder will be geneated with _outcome_ name containing all the results including _sensitivity tests_ plus all the _visualization_
+   a folder will be geneated with _outcome_ name containing all the results including _sensitivity tests_ plus all the _visualizations_
  
 _________________________________________________________________________
 
