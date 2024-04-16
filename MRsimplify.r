@@ -29,7 +29,6 @@ start_time <- Sys.time()
   outCome_args <- read_outcome_data(filename=args[2],snp_col = "SNP", snps = NULL, sep="\t", beta_col = "beta", se_col = "se", effect_allele_col = "effect_allele", other_allele_col = "other_allele", pval_col = "pval", chr_col = "chr", pos_col = "position", eaf_col = "eaf", samplesize="samplesize")
   #extract exposure SNPs present in outcome
   outcome_clump_semi <- semi_join(outCome_args, exposures_clump_local_preH, by = "SNP")
-  print(outcome_clump_semi)
   #Exposure SNPs not present in outomce
   exposures_snps_not <- anti_join(exposures_clump_local_preH, outCome_args,  by = "SNP")
   print("clumping outcome SNPs... ")
