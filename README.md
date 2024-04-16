@@ -51,6 +51,14 @@ TwosampleMR and MultivariableMR, perform all steps with simple command(s) withou
 
 _________________________________________________________________________
 
+## Caution: things to consider to perform a successful MR analyssi..
+
+1) exposure and outcome have same _genomic positions_ and, _A1_ and _A2_ allele
+
+2) LD reference penal must be upto date (1k_v3) and using same population as of used for the generation of exposure and outcome data
+
+_________________________________________________________________________
+
  **additional readings:**
    https://mrcieu.github.io/TwoSampleMR/index.html
    
