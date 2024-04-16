@@ -37,7 +37,7 @@ TwosampleMR and MultivariableMR, perform all steps with simple command(s) withou
 
  ## Step-3: perform MR..
   
-   Rscript --vanilla MRsimplify.r _exposure file_ _outcome file_
+   Rscript --vanilla MRsimplify.r _exposure_ _outcome_
 
  ## Step-4: MR analysis result..
 
