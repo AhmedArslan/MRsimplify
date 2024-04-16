@@ -6,7 +6,7 @@ library(tidyverse)
 library(LDlinkR)
 library(ggplot2)
 library(dplyr)
-set_plink("/opt/anaconda3/envs/plink/bin/plink")
+set_plink("/path/to/plink")
 
 start_time <- Sys.time()
 
@@ -17,7 +17,7 @@ start_time <- Sys.time()
   exposures$se <- SE
   colnames(exposures) <- c("SNP", "chr", "position", "effect_allele", "other_allele", "beta", "Phenotype", "pval","eaf","samplesize", "se")
   exposures_frmt <- format_data(exposures, type = "exposure")
-  exposures_clump_local <- ld_clump(dplyr::tibble(rsid=exposures_frmt$SNP, pval=exposures_frmt$pval.exposure, id=exposures_frmt$exposure), plink_bin = genetics.binaRies::get_plink_binary(), bfile = "/Users/fortunecookie/Desktop/data/1kg.v3/EUR", clump_kb = 300, clump_r2 = 0.1,clump_p = 0.99)
+  exposures_clump_local <- ld_clump(dplyr::tibble(rsid=exposures_frmt$SNP, pval=exposures_frmt$pval.exposure, id=exposures_frmt$exposure), plink_bin = genetics.binaRies::get_plink_binary(), bfile = "/path/1kg.v3/EUR", clump_kb = 300, clump_r2 = 0.1,clump_p = 0.99)
   exposures_clump_local_preH <- merge(exposures_frmt, exposures_clump_local,by.x="SNP", by.y= "rsid")
   exposures_clump_local_preH$pval <- NULL
   exposures_clump_local_preH$id <- NULL
@@ -35,7 +35,7 @@ start_time <- Sys.time()
   print("clumping outcome SNPs... ")
   if (nrow(exposures_snps_not) != 0) { 
   #identify local proxy snps
-  LDproxy <- get_ld_proxies(rsid = unique(exposures_snps_not$SNP), bfile =  "/Users/fortunecookie/Desktop/data/1kg.v3/EUR", tag_kb=5000, tag_r2=0.6, tag_nsnp=5000, threads = 4)
+  LDproxy <- get_ld_proxies(rsid = unique(exposures_snps_not$SNP), bfile =  "/path/1kg.v3/EUR", tag_kb=5000, tag_r2=0.6, tag_nsnp=5000, threads = 4)
   #SNP proxy file cleaning before running next steps:
   LDproxy_reshuffle <- LDproxy[,c(3,7,1,2,8,4,10)]
   LDproxy_reshuffle$distance <- LDproxy$BP_A - LDproxy$BP_B
