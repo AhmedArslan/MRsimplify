@@ -39,7 +39,7 @@ TwosampleMR and MultivariableMR, perform all steps with simple command(s) withou
   
    Rscript --vanilla MRsimplify.r _exposure_ _outcome_
 
- ## Step-4: MR analysis result..
+ ## Step-4: MR analysis results..
 
    a folder will be geneated with _outcome_ name containing all the results including _sensitivity tests_ plus all the _visualizations_
  
