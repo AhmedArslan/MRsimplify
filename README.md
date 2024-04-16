@@ -48,9 +48,9 @@ _________________________________________________________________________
 
 ## Caution: things to consider to perform a successful MR analysis...
 
-1) exposure and outcome have same _genomic positions_ and, _A1_ and _A2_ allele
+1) exposure and outcome variants have same (i) _genomic positions_ and,(ii) _A1_ and _A2_ alleles
 
-2) LD reference penal must be upto date (1k_v3) and using same population as of used for the generation of exposure and outcome data
+2) (i) LD reference penal must be upto date (1k_v3) and (ii) using same population as of used for the generation of exposure and outcome data
 
 _________________________________________________________________________
 
