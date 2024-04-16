@@ -52,7 +52,7 @@ TwosampleMR and MultivariableMR, perform all steps with simple command(s) withou
 _________________________________________________________________________
 
 
-## Caution: things to consider to perform a successful MR analyssi...
+## Caution: things to consider to perform a successful MR analysis...
 
 1) exposure and outcome have same _genomic positions_ and, _A1_ and _A2_ allele
 
