@@ -13,7 +13,7 @@ TwosampleMR and MultivariableMR, perform all steps with simple command(s) withou
  
  E:  _sensitivity tests_ (heterogeneity, pleiotropy, singlesnp, leaveoneout, MR-PRESSO)
  
- F:  _visualization_ (scatter plots and funnel plots)
+ F:  _visualization_ (scatter plot, forest plot, leaveoneout and funnel plot)
  
  G:  compile all _results_ into a file.
 
