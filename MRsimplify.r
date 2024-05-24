@@ -131,4 +131,4 @@ start_time <- Sys.time()
 end_time <- Sys.time(); r <- end_time - start_time; r1 <- str_remove(string = r, pattern = 'Time difference of')
 print(paste('TwoSampleMR for ', file_name, ' is finished in ', r1, sep= ''))
 
-# Rscript --vanilla /Users/fortunecookie/Desktop/MR/MRsimplify/MRsimplify.r exposure outcome
+# Rscript --vanilla MRsimplify.r exposure outcome
