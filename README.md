@@ -57,6 +57,6 @@ _________________________________________________________________________
  **additional readings:**
    https://mrcieu.github.io/TwoSampleMR/index.html
    
- **citation:** If you find repo useful please cite the link while manuscript is in preparation. 
+ **citation:** If you find repo useful please cite Exposure of Early Growth Traits Genetics and Childhood Disorders is Causally Associated with the Gallbladder Outcomes: A Mendelian Randomization study (2025) [https://www.researchsquare.com/article/rs-6234473/v1]
 
  **contact:** <ahmed.arslan@ulb.be> or leave comments in issues page. 
